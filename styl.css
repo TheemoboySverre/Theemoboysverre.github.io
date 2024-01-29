@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(163, 223, 171);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+
+}
+h2{  
+    margin-bottom: 5pt;
+    
+}
+.yougay{ 
+    background-color: deeppink;
+}
+.gayquiz{
+    justify-content: center;
+}
+img {
+    border-radius: 1rem;
+    width: 300pt;
+    margin-inline: auto;
+    margin-block: 1rem;
+}
+.svarKnapper {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.knapp{
+    background-color: greenyellow;
+    padding: 1rem;
+    border: 2pt;
+    width: max-content;
+    margin-inline: auto;
+    text-decoration: none;
+    transition: 300ms;
+    border-radius: 1rem;
+    display: block;
+
+    
+}
+.knapp:hover{
+padding-left: 10pt;
+padding-right: 10pt;
+background-color: skyblue;
+}
+
+
+    
+
+    
+    
